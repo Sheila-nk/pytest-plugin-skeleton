@@ -1,0 +1,1 @@
+A pytest plugin skeleton
