@@ -6,8 +6,6 @@ def pytest_addoption(parser):
         )
     
     parser.addini(
-        "doctest_optionflags",
-        "Option flags for doctests",
-        type="args",
-        default=["NORMALIZE_WHITESPACE", "ELLIPSIS", "IGNORE_EXCEPTION_DETAIL"]
-        )
+        "new_ini_config",
+        "An ini config that configures something"
+    )
