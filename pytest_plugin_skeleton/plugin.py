@@ -10,7 +10,7 @@ def pytest_addoption(parser):
         "An ini config that configures something"
     )
 
-def configure(config):
+def pytest_configure(config):
     new_ini_config = config.getini("new_ini_config")
     if not new_ini_config:
         return
