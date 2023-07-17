@@ -28,5 +28,8 @@ test = [
 [project.urls]
 Source = "https://github.com/Sheila-nk/pytest-plugin-skeleton.git"
 
+[tool.pytest.ini_options]
+addopts = "--verbose --color=yes"
+
 [project.entry-points.pytest11]
 plugin-skeleton = "pytest_plugin_skeleton.plugin"
